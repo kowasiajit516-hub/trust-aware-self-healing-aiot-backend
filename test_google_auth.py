@@ -143,4 +143,4 @@ async def test_google_only_account_cannot_login_with_password(client, configured
     )
     assert resp.status_code == 401
 
-requests==2.32.3
+
