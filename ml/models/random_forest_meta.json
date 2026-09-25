@@ -1,0 +1,22 @@
+{
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "rolling_mean",
+    "rolling_std",
+    "trend",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "n_estimators": 200,
+  "max_depth": null,
+  "n_train_samples": 101532,
+  "n_sensors_trained_on": 25,
+  "n_faulty_readings_excluded": 0,
+  "trained_at": "2026-08-28T12:17:07.960160+00:00",
+  "eval": {
+    "n_eval": 25388,
+    "mae_normalized": 0.2367
+  }
+}

@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.logml/models/random_forest.joblib
+ml/models/*.joblib

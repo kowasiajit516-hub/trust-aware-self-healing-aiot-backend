@@ -1,0 +1,19 @@
+{
+  "feature_names": [
+    "deviation",
+    "zscore",
+    "delta",
+    "stuck"
+  ],
+  "n_estimators": 200,
+  "contamination": "auto",
+  "n_train_samples": 101532,
+  "n_sensors_trained_on": 25,
+  "trained_at": "2026-08-28T12:31:48.414485+00:00",
+  "unsupervised_eval": {
+    "n_eval": 25388,
+    "n_flagged_anomalous": 3227,
+    "flagged_rate": 0.1271
+  },
+  "supervised_eval": null
+}
